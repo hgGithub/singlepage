@@ -1,0 +1,11 @@
+$base: green;
+h1 {
+  color: $base;
+}
+.fls-img-box3{
+    width: 256px;
+    height: 192px;
+    /*注意资源路径都是以该文件寄宿*/
+    background: url(../../assets/images/global/girl1.jpg) 0 0 no-repeat;
+    background-size: 100%;
+}

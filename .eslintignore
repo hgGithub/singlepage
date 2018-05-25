@@ -1,0 +1,5 @@
+/build/
+/config/
+/dist/
+/*.js
+/src/assets/scripts/3rdths/jquery-1.11.3.min.js
