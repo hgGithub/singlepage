@@ -5,3 +5,12 @@ html, body {
   font-family:  Helvetica, PingFangSC-Regular, Arial, Microsoft Yahei, sans-serif;
   font-size: $font14;
 }
+.appr-app {
+  overflow-x: hidden;
+}
+.page-enter {
+  transform: translateX(100%);
+}
+.page-enter-active {
+  transition: transform .2s ease-in-out;
+}

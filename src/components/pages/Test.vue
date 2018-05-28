@@ -12,11 +12,13 @@
     </figure>
     <figure class="fls-img-box3"></figure>
     <p>{{tc}},{{getters}}</p>
+    <flow-state></flow-state>
   </div>
 </template>
 <script>
 // import $ from 'jquery'
 import { Group, Cell } from 'vux'
+import FlowState from '../flowstate/FlowState'
 export default {
   name: 'test',
   data: function () {
@@ -42,7 +44,8 @@ export default {
   },
   components: {
     Group,
-    Cell
+    Cell,
+    FlowState
   },
   methods: {
     clickTest: function (event) {
